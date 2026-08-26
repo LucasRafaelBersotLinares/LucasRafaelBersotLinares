@@ -3,7 +3,6 @@
   <source media="(prefers-color-scheme: light)" srcset="assets/light-svg.svg">
   <img alt="Hero Profile Banner" src="assets/dark-svg.svg" width="100%">
 </picture>
----
 
 ## Tecnologias que utilizo:
 
