@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset=""https:"//raw.githubusercontent.com/LucasRafaelBersotLinares/LucasRafaelBersotLinares/main/assets/dark-svg.svg">
-  <source media="(prefers-color-scheme: light)" srcset="//raw.githubusercontent.com/LucasRafaelBersotLinares/LucasRafaelBersotLinares/main/assets/light-svg.svg">
-  <img alt="Hero Profile Banner" src="assets/dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark-svg.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light-svg.svg">
+  <img alt="Hero Profile Banner" src="assets/dark-svg.svg" width="100%">
 </picture>
 ---
 
