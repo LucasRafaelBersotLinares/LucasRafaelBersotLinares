@@ -98,7 +98,7 @@
     <!-- ASCII Line Clip revealing down -->
     <clipPath id="ascii-clip">
       <rect x="0" y="0" width="400" height="0">
-        <animate attributeName="height" values="0; 380" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" />
+        <animate attributeName="height" values="0; 430" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" />
       </rect>
     </clipPath>
   </defs>
@@ -153,38 +153,89 @@
     <text x="382" y="30" fill="#94A3B8" font-size="11" class="font-mono" text-anchor="end" opacity="0.6">cyberspace.sh</text>
 
     <!-- Scanline Sweep Effect -->
-    <g clip-path="url(#ascii-clip)" transform="translate(20, 60)">
+    <g clip-path="url(#ascii-clip)" transform="translate(20, 52)">
       <!-- Moving Scanline -->
       <line x1="0" y1="0" x2="370" y2="0" stroke="rgba(34, 211, 238, 0.4)" stroke-width="2" filter="url(#glow-blur)">
-        <animate attributeName="y1" values="0; 380; 0" dur="5s" repeatCount="indefinite" />
-        <animate attributeName="y2" values="0; 380; 0" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="y1" values="0; 430; 0" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="0; 430; 0" dur="5s" repeatCount="indefinite" />
       </line>
 
       <!-- Floating ASCII Graphic -->
       <g>
-        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="6s" repeatCount="indefinite" ease="easeInOut" />
-        <text class="font-mono" font-size="11" font-weight="600" fill="url(#ascii-grad)" xml:space="preserve" y="16">
-          <tspan x="10" dy="1.25em">                .---.               </tspan>
-          <tspan x="10" dy="1.25em">               /     \              </tspan>
-          <tspan x="10" dy="1.25em">              | () () |             </tspan>
-          <tspan x="10" dy="1.25em">               \  _  /              </tspan>
-          <tspan x="10" dy="1.25em">                /   \               </tspan>
-          <tspan x="10" dy="1.25em">               /|   |\              </tspan>
-          <tspan x="10" dy="1.25em">         __   / |   | \   __        </tspan>
-          <tspan x="10" dy="1.25em">        /  \ |  |---|  | /  \       </tspan>
-          <tspan x="10" dy="1.25em">       |    \|  |   |  |/    |      </tspan>
-          <tspan x="10" dy="1.25em">        \____/  |===|  \____/       </tspan>
-          <tspan x="10" dy="1.25em">                /   \               </tspan>
-          <tspan x="10" dy="1.25em">               /     \              </tspan>
-          <tspan x="10" dy="1.25em">              |   .   |             </tspan>
-          <tspan x="10" dy="1.25em">              |   |   |             </tspan>
-          <tspan x="10" dy="1.25em">             /    |    \            </tspan>
-          <tspan x="10" dy="1.25em">            |_____|_____|           </tspan>
-          <tspan x="10" dy="1.25em">            [_____|_____]           </tspan>
-          <tspan x="10" dy="1.25em">               |  |  |              </tspan>
-          <tspan x="10" dy="1.25em">               |  |  |              </tspan>
-          <tspan x="10" dy="1.25em">              /   |   \             </tspan>
-          <tspan x="10" dy="1.25em">             (____|____)            </tspan>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="6s" repeatCount="indefinite" ease="easeInOut" />
+        <text class="font-mono" font-size="5" letter-spacing="0.5" font-weight="600" fill="url(#ascii-grad)" xml:space="preserve" y="4">
+          <tspan x="98" dy="1.15em">++-:-=++=-==+*+++*+++==-::--::.:--:::--::::::::.::. ..      .</tspan>
+          <tspan x="98" dy="1.15em">*+-:.:-===+===-::-==--:=-==+*=::::::==:::::::::::............</tspan>
+          <tspan x="98" dy="1.15em">+*+====+==--=++*==+****#++****==+=**-::::::...:::::::::.  ..:</tspan>
+          <tspan x="98" dy="1.15em">+===+++====+++**++-+********##*#****++++++=-:::::::::::::....</tspan>
+          <tspan x="98" dy="1.15em">*++====++++*##*###*##**++**###########*******+::..:::::::..:.</tspan>
+          <tspan x="98" dy="1.15em">+===+===+*##%###%%%%#*#####%%###%%%%#########**+=============</tspan>
+          <tspan x="98" dy="1.15em">+=+++++***#####*##%%%%%##***#%***#%#%%%##**####***===========</tspan>
+          <tspan x="98" dy="1.15em">-===+****###%%####%###***+++##*++*###%%%#########*+=====+++++</tspan>
+          <tspan x="98" dy="1.15em">=-==+*##%%%%#####%####**+====++++*##*##%%%%%#%%%#**+=======++</tspan>
+          <tspan x="98" dy="1.15em">===++*#%%%%%######**+=----======+**+++*#%%%%%%%%%#+=====++===</tspan>
+          <tspan x="98" dy="1.15em">*====*##%##***++++=-----=++*******+++++*#%%%%%%%%%#**======+=</tspan>
+          <tspan x="98" dy="1.15em">++==+##=+++=+++++=-----======++++*#*++++**#%%%%%%%*=======+==</tspan>
+          <tspan x="98" dy="1.15em">++=+**++==+=====------==+********+++++++++****%%%#*=++==+++==</tspan>
+          <tspan x="98" dy="1.15em">+++**#==++++------------==++******++==+**####*%#+=====+++=--+</tspan>
+          <tspan x="98" dy="1.15em">+++=*#==+=++=--------------==++++=====+******#*====+=+===::-=</tspan>
+          <tspan x="98" dy="1.15em">*+++#%%+--==-------------====+====---==*###***====+==+++=::-=</tspan>
+          <tspan x="98" dy="1.15em">*+++*#%%*===-------========++++==-----=+***#*+====+=+=++=--==</tspan>
+          <tspan x="98" dy="1.15em">**+*##%%+--=------======+***+++++**+==++++++=========++====++</tspan>
+          <tspan x="98" dy="1.15em">*+++##%%+---------======+#**++++********++++==+==++++====++++</tspan>
+          <tspan x="98" dy="1.15em">*+++*###=------=========++**++=*+++**##**+++==+++==++====+++=</tspan>
+          <tspan x="98" dy="1.15em">=+++*%%%=-----===========++==+++=-=+*#*##*++===++=++======+++</tspan>
+          <tspan x="98" dy="1.15em">**+++*#*----====++==+++========+++++*%###*+=====+++=======++=</tspan>
+          <tspan x="98" dy="1.15em">+*#****------=++++++++++=======++***++++++++++=++++====++++++</tspan>
+          <tspan x="98" dy="1.15em">***#**-------==+********+++=======++++++++++++==++--=+++++*++</tspan>
+          <tspan x="98" dy="1.15em">+++++=:::---===+++***######****+++++++==++++++++==:-==++***++</tspan>
+          <tspan x="98" dy="1.15em">+******##*+====+++++***######%%####*+==+==++++++=--:-=+++*+++</tspan>
+          <tspan x="98" dy="1.15em">****########%#*++++++**********##*++=+++++=++++==:::-==+++++*</tspan>
+          <tspan x="98" dy="1.15em">*****#%%######%%%%#*********+**+++++++++++++=====-::=+=++**+=</tspan>
+          <tspan x="98" dy="1.15em">******##%%%#%%##%%%%%%#*******+====+++++++++++++++=-=+++*****</tspan>
+          <tspan x="98" dy="1.15em">*****####%@%%#%%#%%%@@@@@#***+====--=+++++******+=-==:=+**+++</tspan>
+          <tspan x="98" dy="1.15em">****######%@%%%%%%%%%%%@@@@@%+====++++====+++=+++=::=-==+++==</tspan>
+          <tspan x="98" dy="1.15em">**##*#####%%@%%#%%%%%%%%%%%%%=====+**++++**++=-=++=--====-===</tspan>
+          <tspan x="98" dy="1.15em">*#########%%%@%%%%%%%%%%%%%%%*++==++++*****++==+++=========++</tspan>
+          <tspan x="98" dy="1.15em">***#####%%%%%@@%%%%%%%%%%%%%%#*++==++++++++++++++++++=+++====</tspan>
+          <tspan x="98" dy="1.15em">#**#####%%%%%%@%%%%%%%%%%%%%%%%++*+++++++====-====-=--++====+</tspan>
+          <tspan x="98" dy="1.15em">*#**###%#%%%%%%@%%%%%%%%%%%%%%%%%*++=+===+++++++=+++==+=+++++</tspan>
+          <tspan x="98" dy="1.15em">**##*###%%%%%%@@%%%%%%@%%%%%%%%%%%+=+++++====+===+++==+++++++</tspan>
+          <tspan x="98" dy="1.15em">+**######%%%%%@@@%@@%%%@%%%%%%%%%%%*=++-=======----+===+++++*</tspan>
+          <tspan x="98" dy="1.15em">++**######%%%%@@@@@@%%%%%%%%%%%%%%%%#=-++==+--=--=+=++++==+**</tspan>
+          <tspan x="98" dy="1.15em">+++*###%%%%%%@@@@@@@%%%%@%%%%%%%%%%%%%++==-======-===++===++=</tspan>
+          <tspan x="98" dy="1.15em">++++*###%%%%%@@@@@@@%%%%@@%%%%%%%%%%%%%*-----==++==++========</tspan>
+          <tspan x="98" dy="1.15em">=++***###%%%%@@@@@@@%%%%@@%%%%%%%%%%%%%%#+=--==++==========+=</tspan>
+          <tspan x="98" dy="1.15em">==+***###%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%%#+--+++*++========++</tspan>
+          <tspan x="98" dy="1.15em">+*######%%%%%@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%=-:-=+=++*++===++=</tspan>
+          <tspan x="98" dy="1.15em">++*#####%%%%@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%=++==++======++--</tspan>
+          <tspan x="98" dy="1.15em">+++*#####%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%%%@@%*===-+**++++++==-</tspan>
+          <tspan x="98" dy="1.15em">=*#**##%%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%%%@@@%===-****+++*+=-=</tspan>
+          <tspan x="98" dy="1.15em">#*++####%%%%@%@@@@@@%%%%%%%%%%%%%%%%%%%%%%@@%--=+*#**+++*+=+=</tspan>
+          <tspan x="98" dy="1.15em">:-+#*#%#%%%%%%@%@@@%%%%%%%%%%%%%%%%%%%%%%%%@@*+++*******+=---</tspan>
+          <tspan x="98" dy="1.15em">::--+##%#%%%%%%%@@@@%%%%%%%%%%%%%%%%%%%%%%%%@@********+======</tspan>
+          <tspan x="98" dy="1.15em">:::--+#%%%%%%%%%@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*****====+=-=</tspan>
+          <tspan x="98" dy="1.15em">::---=+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#****+========</tspan>
+          <tspan x="98" dy="1.15em">::---==%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#####***=----=====</tspan>
+          <tspan x="98" dy="1.15em">:---===%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%######*+===+=+==---</tspan>
+          <tspan x="98" dy="1.15em">:---==+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%###########+--::::-=-===</tspan>
+          <tspan x="98" dy="1.15em">:---==*%%%%%%%%%%%%%%%%%%%%%%%##%%###%##########*==----==----</tspan>
+          <tspan x="98" dy="1.15em">----==#%%%%%%%%%%%%%%%%%%%%###################*##*==-=====---</tspan>
+          <tspan x="98" dy="1.15em">----=+#%%%%%%%%%%%%%%%%%#######################*#*===+=-=--==</tspan>
+          <tspan x="98" dy="1.15em">---==*##%%%%%%%%%%#############################***=-===-==++=</tspan>
+          <tspan x="98" dy="1.15em">---==*%###%%#%#%######################*#*########*=::-====+**</tspan>
+          <tspan x="98" dy="1.15em">---==#%########################********##****#####+=++-+*++*+</tspan>
+          <tspan x="98" dy="1.15em">---==#%####################******************######+==+++++==</tspan>
+          <tspan x="98" dy="1.15em">---=+#%##########***#####****************##**#######*******#*</tspan>
+          <tspan x="98" dy="1.15em">---=+#%#*######**************************####*##########%####</tspan>
+          <tspan x="98" dy="1.15em">---=*%%%*######**************************###**########%%%%%%#</tspan>
+          <tspan x="98" dy="1.15em">---=*%%%*######*********************************#######%%%%##</tspan>
+          <tspan x="98" dy="1.15em">--=+#%%%####*#*****************************#*****#######%%%%#</tspan>
+          <tspan x="98" dy="1.15em">--=+#%%%#*###******************************##****#######**++*</tspan>
+          <tspan x="98" dy="1.15em">--=*%%%%#*###*************************************#######*++=</tspan>
+          <tspan x="98" dy="1.15em">--=*%%%%%*##***************************************######**+*</tspan>
+          <tspan x="98" dy="1.15em">-=+#%%%%%*******************************************######***</tspan>
+          <tspan x="98" dy="1.15em">==*%%%%%%#*******************************************#####**#</tspan>
         </text>
       </g>
     </g>
@@ -195,8 +246,8 @@
       <circle cx="16" cy="17" r="4" fill="#10B981">
         <animate attributeName="opacity" values="1; 0.3; 1" dur="2s" repeatCount="indefinite" />
       </circle>
-      <text x="28" y="21" fill="#94A3B8" font-size="11" class="font-mono">STATUS: <tspan fill="#F8FAFC">AVAILABLE FOR HIRE</tspan></text>
-      <text x="346" y="21" fill="#7C3AED" font-size="11" font-weight="600" class="font-mono" text-anchor="end">v2.4.0</text>
+      <text x="28" y="21" fill="#94A3B8" font-size="11" class="font-mono">STATUS: <tspan fill="#F8FAFC">ESTUDANTE E DESENVOLVEDOR</tspan></text>
+      <text x="346" y="21" fill="#7C3AED" font-size="11" font-weight="600" class="font-mono" text-anchor="end">v1.0.0</text>
     </g>
   </g>
 
@@ -210,34 +261,34 @@
       <text x="0" y="0" fill="#94A3B8" class="font-mono" font-size="12" letter-spacing="1">~/developer/profile <tspan fill="#22D3EE">git:(main)</tspan></text>
     </g>
 
-    <!-- Greeting &amp; Header -->
+    <!-- Greeting & Header -->
     <g transform="translate(32, 75)">
       <!-- Hi Greeting -->
       <text x="0" y="0" fill="#94A3B8" class="font-sans" font-size="16" font-weight="500">
-        Hi there, I'm <tspan fill="#F8FAFC" font-weight="700">Alex Rivera</tspan> 👋
+        Hi there, I'm <tspan fill="#F8FAFC" font-weight="700">Lucas Rafael Bersot Linares</tspan> 🐍
       </text>
 
       <!-- Dynamic Typewriter Title with Clip Path -->
       <g transform="translate(0, 14)">
         <g clip-path="url(#type-clip)">
-          <!-- State 1: Full Stack Developer -->
+          <!-- State 1 -->
           <text x="0" y="32" fill="url(#accent-grad)" class="font-sans" font-size="28" font-weight="800" letter-spacing="-0.5">
             Full Stack Developer
             <animate attributeName="display" values="inline;inline;none;none;none;none;none" keyTimes="0;0.26;0.27;0.53;0.54;0.80;1" dur="14s" repeatCount="indefinite" />
           </text>
-          <!-- State 2: UI/UX Engineer -->
+          <!-- State 2 -->
           <text x="0" y="32" fill="url(#accent-grad)" class="font-sans" font-size="28" font-weight="800" letter-spacing="-0.5">
-            UI/UX Engineer &amp; Architect
+            OpenCV, Angular &amp; Java
             <animate attributeName="display" values="none;none;inline;inline;none;none;none" keyTimes="0;0.26;0.27;0.53;0.54;0.80;1" dur="14s" repeatCount="indefinite" />
           </text>
-          <!-- State 3: Open Source Contributor -->
+          <!-- State 3 -->
           <text x="0" y="32" fill="url(#accent-grad)" class="font-sans" font-size="28" font-weight="800" letter-spacing="-0.5">
-            Open Source Contributor
+            TADS - IFSP BTV Student
             <animate attributeName="display" values="none;none;none;none;inline;inline;none" keyTimes="0;0.53;0.54;0.80;0.81;0.97;1" dur="14s" repeatCount="indefinite" />
           </text>
-          <!-- State 4: AI Systems Enthusiast -->
+          <!-- State 4 -->
           <text x="0" y="32" fill="url(#accent-grad)" class="font-sans" font-size="28" font-weight="800" letter-spacing="-0.5">
-            AI Enthusiast &amp; Builder
+            Tech Enthusiast &amp; Builder
             <animate attributeName="display" values="none;none;none;none;none;none;inline" keyTimes="0;0.80;0.81;0.97;0.98;0.99;1" dur="14s" repeatCount="indefinite" />
           </text>
         </g>
@@ -259,28 +310,28 @@
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze" />
         <animateTransform attributeName="transform" type="translate" values="0,6; 0,0" dur="0.5s" begin="0.3s" fill="freeze" />
         <text x="0" y="0" fill="#94A3B8">📍 Location</text>
-        <text x="130" y="0" fill="#F8FAFC">San Francisco, CA</text>
+        <text x="145" y="0" fill="#F8FAFC">São Paulo, Brazil</text>
       </g>
       <!-- Item 2: Focus -->
       <g opacity="0" transform="translate(0, 24)">
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze" />
         <animateTransform attributeName="transform" type="translate" values="0,30; 0,24" dur="0.5s" begin="0.5s" fill="freeze" />
         <text x="0" y="0" fill="#94A3B8">⚡ Current Focus</text>
-        <text x="130" y="0" fill="#F8FAFC">Next.js 15, Rust &amp; AI Agents</text>
+        <text x="145" y="0" fill="#F8FAFC">OpenCV, Angular &amp; Java</text>
       </g>
       <!-- Item 3: Education -->
       <g opacity="0" transform="translate(0, 48)">
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze" />
         <animateTransform attributeName="transform" type="translate" values="0,54; 0,48" dur="0.5s" begin="0.7s" fill="freeze" />
         <text x="0" y="0" fill="#94A3B8">🎓 Education</text>
-        <text x="130" y="0" fill="#F8FAFC">B.S. in Computer Science</text>
+        <text x="145" y="0" fill="#F8FAFC">TADS - IFSP BTV</text>
       </g>
       <!-- Item 4: Contact -->
       <g opacity="0" transform="translate(0, 72)">
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.9s" fill="freeze" />
         <animateTransform attributeName="transform" type="translate" values="0,78; 0,72" dur="0.5s" begin="0.9s" fill="freeze" />
         <text x="0" y="0" fill="#94A3B8">📫 Email</text>
-        <text x="130" y="0" fill="#22D3EE">alex@rivera.dev</text>
+        <text x="145" y="0" fill="#22D3EE">lucasblinares@gmail.com</text>
       </g>
     </g>
 
@@ -293,64 +344,58 @@
       
       <!-- Row 1 -->
       <g transform="translate(0, 16)">
-        <!-- React -->
-        <g class="skill-pill" transform="translate(0, 0)">
-          <rect width="78" height="28" rx="8" fill="#1E293B" stroke="rgba(34, 211, 238, 0.3)" stroke-width="1" />
-          <text x="39" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">React</text>
-        </g>
-        <!-- Next.js -->
-        <g class="skill-pill" transform="translate(86, 0)">
-          <rect width="84" height="28" rx="8" fill="#1E293B" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-          <text x="42" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Next.js</text>
-        </g>
         <!-- TypeScript -->
-        <g class="skill-pill" transform="translate(178, 0)">
+        <g class="skill-pill" transform="translate(0, 0)">
           <rect width="108" height="28" rx="8" fill="#1E293B" stroke="rgba(59, 130, 246, 0.4)" stroke-width="1" />
           <text x="54" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">TypeScript</text>
         </g>
-        <!-- Tailwind -->
-        <g class="skill-pill" transform="translate(294, 0)">
-          <rect width="90" height="28" rx="8" fill="#1E293B" stroke="rgba(34, 211, 238, 0.3)" stroke-width="1" />
-          <text x="45" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Tailwind</text>
+        <!-- Angular -->
+        <g class="skill-pill" transform="translate(116, 0)">
+          <rect width="85" height="28" rx="8" fill="#1E293B" stroke="rgba(239, 68, 68, 0.4)" stroke-width="1" />
+          <text x="42.5" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Angular</text>
+        </g>
+        <!-- Java -->
+        <g class="skill-pill" transform="translate(209, 0)">
+          <rect width="65" height="28" rx="8" fill="#1E293B" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1" />
+          <text x="32.5" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Java</text>
+        </g>
+        <!-- Spring -->
+        <g class="skill-pill" transform="translate(282, 0)">
+          <rect width="80" height="28" rx="8" fill="#1E293B" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+          <text x="40" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Spring</text>
         </g>
         <!-- Node.js -->
-        <g class="skill-pill" transform="translate(392, 0)">
-          <rect width="84" height="28" rx="8" fill="#1E293B" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <g class="skill-pill" transform="translate(370, 0)">
+          <rect width="84" height="28" rx="8" fill="#1E293B" stroke="rgba(34, 211, 238, 0.4)" stroke-width="1" />
           <text x="42" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Node.js</text>
         </g>
         <!-- Python -->
-        <g class="skill-pill" transform="translate(484, 0)">
+        <g class="skill-pill" transform="translate(462, 0)">
           <rect width="82" height="28" rx="8" fill="#1E293B" stroke="rgba(234, 179, 8, 0.4)" stroke-width="1" />
           <text x="41" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Python</text>
         </g>
       </g>
-
       <!-- Row 2 -->
       <g transform="translate(0, 52)">
-        <!-- Docker -->
+        <!-- MySQL -->
         <g class="skill-pill" transform="translate(0, 0)">
-          <rect width="82" height="28" rx="8" fill="#1E293B" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1" />
-          <text x="41" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Docker</text>
+          <rect width="80" height="28" rx="8" fill="#1E293B" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1" />
+          <text x="40" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">MySQL</text>
         </g>
-        <!-- Postgres -->
-        <g class="skill-pill" transform="translate(90, 0)">
-          <rect width="94" height="28" rx="8" fill="#1E293B" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1" />
-          <text x="47" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Postgres</text>
-        </g>
-        <!-- AWS -->
-        <g class="skill-pill" transform="translate(192, 0)">
-          <rect width="68" height="28" rx="8" fill="#1E293B" stroke="rgba(249, 115, 22, 0.3)" stroke-width="1" />
-          <text x="34" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">AWS</text>
+        <!-- OpenCV -->
+        <g class="skill-pill" transform="translate(88, 0)">
+          <rect width="85" height="28" rx="8" fill="#1E293B" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1" />
+          <text x="42.5" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">OpenCV</text>
         </g>
         <!-- Git -->
-        <g class="skill-pill" transform="translate(268, 0)">
+        <g class="skill-pill" transform="translate(271, 0)">
           <rect width="62" height="28" rx="8" fill="#1E293B" stroke="rgba(239, 68, 68, 0.3)" stroke-width="1" />
           <text x="31" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Git</text>
         </g>
-        <!-- Figma -->
-        <g class="skill-pill" transform="translate(338, 0)">
-          <rect width="78" height="28" rx="8" fill="#1E293B" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1" />
-          <text x="39" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Figma</text>
+        <!-- Linux -->
+        <g class="skill-pill" transform="translate(341, 0)">
+          <rect width="75" height="28" rx="8" fill="#1E293B" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+          <text x="37.5" y="18" fill="#F8FAFC" class="font-mono" font-size="11.5" text-anchor="middle">Linux</text>
         </g>
       </g>
     </g>
@@ -358,7 +403,7 @@
     <!-- Divider Line -->
     <line x1="32" y1="390" x2="650" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
 
-    <!-- Bottom Socials &amp; CTA -->
+    <!-- Bottom Socials & CTA -->
     <g transform="translate(32, 422)">
       <!-- GitHub -->
       <g class="social-icon" transform="translate(0, 0)">
@@ -374,19 +419,11 @@
         <text x="42" y="24" fill="#F8FAFC" class="font-sans" font-size="12" font-weight="600">LinkedIn</text>
       </g>
 
-      <!-- Twitter/X -->
+      <!-- Email -->
       <g class="social-icon" transform="translate(230, 0)">
-        <rect width="104" height="38" rx="10" fill="#030712" fill-opacity="0.8" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
-        <path d="M18.2 3h3.1l-6.8 7.8L22.5 21h-6.3l-4.9-6.4L5.6 21H2.4l7.3-8.4L2 3h6.5l4.4 5.9L18.2 3zm-1.1 16.2h1.7L7.6 4.7H5.8l11.3 14.5z" fill="#F8FAFC" transform="translate(12,8) scale(0.7)" />
-        <text x="44" y="24" fill="#F8FAFC" class="font-sans" font-size="12" font-weight="600">Twitter</text>
-      </g>
-
-      <!-- Portfolio link -->
-      <g class="social-icon" transform="translate(344, 0)">
-        <rect width="116" height="38" rx="10" fill="#030712" fill-opacity="0.8" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
-        <circle cx="24" cy="19" r="6" stroke="#22D3EE" stroke-width="1.5" fill="none" />
-        <path d="M21 19h6M24 13a8 8 0 0 1 0 12M24 13a8 8 0 0 0 0 12" stroke="#22D3EE" stroke-width="1" fill="none" />
-        <text x="44" y="24" fill="#F8FAFC" class="font-sans" font-size="12" font-weight="600">Portfolio</text>
+        <rect width="100" height="38" rx="10" fill="#030712" fill-opacity="0.8" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6ZM20 6L12 11L4 6H20ZM20 18H4V8L12 13L20 8V18Z" fill="#F8FAFC" transform="translate(10,7) scale(0.75)" />
+        <text x="42" y="24" fill="#F8FAFC" class="font-sans" font-size="12" font-weight="600">Email</text>
       </g>
     </g>
   </g>
