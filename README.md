@@ -1,11 +1,8 @@
-# 👋 Olá, eu sou o Lucas!
-
-Bem-vindo ao meu GitHub 🚀  
-
-Essa conta é destinada ao registro dos meus projetos pessoais e acadêmicos.  
-Caso tenha interesse, fique à vontade para explorar os repositórios!
-
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark-svg.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light-svg.svg">
+  <img alt="Hero Profile Banner" src="assets/dark-svg.svg" width="100%">
+</picture>
 
 ## Tecnologias que utilizo:
 
