@@ -7,7 +7,7 @@
       .font-mono { font-family: 'Fira Code', monospace; }
       .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
 
-      /* Micro-interactions & Smooth transitions */
+      /* Micro-interactions &amp; Smooth transitions */
       .skill-pill {
         transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), filter 0.25s ease;
         cursor: pointer;

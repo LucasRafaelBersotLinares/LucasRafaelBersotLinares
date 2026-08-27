@@ -7,7 +7,7 @@
       .font-mono { font-family: 'Fira Code', monospace; }
       .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
 
-      /* Micro-interactions & Smooth transitions */
+      /* Micro-interactions &amp; Smooth transitions */
       .skill-pill {
         transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), filter 0.25s ease;
         cursor: pointer;
@@ -210,7 +210,7 @@
       <text x="0" y="0" fill="#94A3B8" class="font-mono" font-size="12" letter-spacing="1">~/developer/profile <tspan fill="#22D3EE">git:(main)</tspan></text>
     </g>
 
-    <!-- Greeting & Header -->
+    <!-- Greeting &amp; Header -->
     <g transform="translate(32, 75)">
       <!-- Hi Greeting -->
       <text x="0" y="0" fill="#94A3B8" class="font-sans" font-size="16" font-weight="500">
@@ -358,7 +358,7 @@
     <!-- Divider Line -->
     <line x1="32" y1="390" x2="650" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
 
-    <!-- Bottom Socials & CTA -->
+    <!-- Bottom Socials &amp; CTA -->
     <g transform="translate(32, 422)">
       <!-- GitHub -->
       <g class="social-icon" transform="translate(0, 0)">
