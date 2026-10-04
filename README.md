@@ -9,9 +9,6 @@
 <h3>🚧 Atualmente desenvolvendo</h3>
 
 <div align="center">
-  <a href="https://github.com/LucasRafaelBersotLinares/API-YOLLO-TYPESCRIPT">
-    <img src="https://img.shields.io/badge/API%20YOLLO-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="API YOLLO TypeScript">
-  </a>
 </div>
 
 <br>
